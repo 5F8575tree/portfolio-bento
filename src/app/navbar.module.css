@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.navbar__list {
+  list-style: none;
+  display: flex;
+}
+.navbar__item {
+  font-family: var(--font-text);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin: 0 0.5px;
+  padding: 18px 54px;
+  width: 130px;
+  border-radius: 7px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.navbar__item.active {
+  background-color: var(--color-grey);
+  color: #fff;
+}
+.navbar__item:hover {
+  cursor: pointer;
+}
