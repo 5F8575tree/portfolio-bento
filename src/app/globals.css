@@ -38,11 +38,13 @@ body.light {
   background-image: url('/mosaic-light.png');
   --background-color: #252525;
   --text-color: #FAFAFA;
+  --grid-item-bg: #F8F8F8;
 }
 body.dark {
   background-image: url('/mosaic-blue.png');
   --background-color: #111;
   --text-color: #F8F8F8;
+  --grid-item-bg: #1D2944;
 }
 
 a {
