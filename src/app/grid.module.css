@@ -1,0 +1,232 @@
+.wrapper {
+  max-width: 752px;
+  margin: 6.125rem auto;
+  display: grid;
+  grid-template-areas:
+      "profile profile project1 lightDarkMode"
+      "profile profile project1 lightDarkMode"
+      "resume language project1 project2"
+      "resume language project1 project2"
+      "workTogether workTogether linkedIn project2"
+      "workTogether workTogether gitHub project2"
+      "project3 project4 skills skills"
+      "project3 project4 skills skills"
+      "project3 project4 aboutMe aboutMe"
+      "project3 project4 aboutMe aboutMe";
+}
+
+.profile {
+  grid-area: profile;
+  background: lightblue;
+  height: var(--horizontal-full-height);
+  width: var(--horizontal-full-width);
+}
+.project1 {
+  margin-bottom: 0.65rem;
+  grid-area: project1;
+  background: lightcyan;
+  height: var(--veritcal-full-height);
+  width: var(--veritcal-full-width);
+}
+.lightDarkMode {
+  grid-area: lightDarkMode;
+  background: lightcoral;
+  height: var(--square-height);
+  width: var(--square-width);
+}
+.resume {
+  grid-area: resume;
+  background: lightgray;
+  height: var(--square-height);
+  width: var(--square-width);
+}
+.language {
+  grid-area: language;
+  background: lightgoldenrodyellow;
+  height: var(--square-height);
+  width: var(--square-width);
+}
+.project2 {
+  margin-bottom: 0.65rem;
+  grid-area: project2;
+  background: lightsalmon;
+  height: var(--veritcal-full-height);
+  width: var(--veritcal-full-width);
+}
+.workTogether {
+  grid-area: workTogether;
+  background: lightseagreen;
+  height: var(--horizontal-full-height);
+  width: var(--horizontal-full-width);
+}
+.linkedIn {
+  grid-area: linkedIn;
+  background: lightyellow;
+  height: var(--mini-height);
+  width: var(--mini-width);
+}
+.gitHub {
+  grid-area: gitHub;
+  background: lightslategray;
+  height: var(--mini-height);
+  width: var(--mini-width);
+}
+.project3 {
+  margin-bottom: 0.65rem;
+  grid-area: project3;
+  background: lightpink;
+  height: var(--veritcal-full-height);
+  width: var(--veritcal-full-width);
+}
+.project4 {
+  margin-bottom: 0.65rem;
+  grid-area: project4;
+  background: lightgreen;
+  height: var(--veritcal-full-height);
+  width: var(--veritcal-full-width);
+}
+.skills {
+  grid-area: skills;
+  background: lightskyblue;
+  height: var(--horizontal-full-height);
+  width: var(--horizontal-full-width);
+}
+.aboutMe {
+  grid-area: aboutMe;
+  background: violet;
+  height: var(--horizontal-full-height);
+  width: var(--horizontal-full-width);
+}
+@media (max-width: 764px) {
+  .wrapper {
+    max-width: 558px;
+    grid-template-areas:
+        "profile profile project1"
+        "profile profile project1"
+        "resume lightDarkMode project1"
+        "resume lightDarkMode project1"
+        "workTogether workTogether linkedIn"
+        "workTogether workTogether gitHub"
+        "skills skills project2"
+        "skills skills project2"
+        "aboutMe aboutMe project2"
+        "aboutMe aboutMe project2"
+        "project3 project4 language"
+        "project3 project4 language"
+        "project3 project4 ."
+        "project3 project4 .";
+  }
+  .profile {
+    margin-right: 0.65rem;
+  }
+  .workTogether {
+    margin-bottom: 0.4rem;
+  }
+
+}
+@media (max-width: 570px) {
+  .wrapper {
+    max-width: 385px;
+    grid-template-areas:
+        "profile profile"
+        "profile profile"
+        "project1 lightDarkMode"
+        "project1 lightDarkMode"
+        "project1 project2"
+        "project1 project2"
+        "linkedIn project2"
+        "gitHub project2"
+        "workTogether workTogether"
+        "workTogether workTogether"
+        "skills skills"
+        "skills skills"
+        "language resume"
+        "language resume"
+        "aboutMe aboutMe"
+        "aboutMe aboutMe"
+        "project3 project4"
+        "project3 project4"
+        "project3 project4"
+        "project3 project4";
+  }
+  .profile, .lightDarkMode, .gitHub, .workTogether, .skills, .language, .resume, .aboutMe {
+    margin-bottom: 0.65rem;
+  }
+  .linkedIn {
+    margin-bottom: 0.3rem;
+  }
+}
+@media (max-width: 385px) {
+  .wrapper {
+    max-width: 100%;
+    margin: 6.125rem 0.25rem;
+    grid-template-areas:
+        "profile"
+        "profile"
+        "profile"
+        "project1"
+        "project1"
+        "project1"
+        "lightDarkMode"
+        "linkedIn"
+        "project2"
+        "project2"
+        "project2"
+        "gitHub "
+        "workTogether"
+        "workTogether"
+        "skills"
+        "skills"
+        "skills"
+        "language"
+        "resume"
+        "aboutMe"
+        "aboutMe"
+        "project3"
+        "project3"
+        "project4"
+        "project4";
+  }
+  .profile {
+    width: var(--mobile-screen-full-width);
+  }
+  .project1 {
+    width: var(--mobile-screen-full-width);
+    margin-bottom: 0.65rem;
+  }
+  .lightDarkMode {
+    width: var(--mobile-screen-full-width);
+  }
+  .linkedIn {
+    width: var(--mobile-screen-full-width);
+    margin-bottom: 0.65rem;
+
+  }
+  .gitHub {
+    width: var(--mobile-screen-full-width);
+  }
+  .workTogether {
+    width: var(--mobile-screen-full-width);
+  }
+  .language {
+    width: var(--mobile-screen-full-width);
+  }
+  .resume {
+    width: var(--mobile-screen-full-width);
+  }
+  .project2 {
+    width: var(--mobile-screen-full-width);
+  }
+  .project3 {
+    width: var(--mobile-screen-full-width);
+  }
+  .project4 {
+    width: var(--mobile-screen-full-width);
+  }
+  .skills {
+    width: var(--mobile-screen-full-width);
+  }
+  .aboutMe {
+    width: var(--mobile-screen-full-width);
+  }
+}

@@ -9,6 +9,17 @@
   --font-text: 'Roboto', sans-serif;
 
   --color-grey: #797979;
+
+  --veritcal-full-height: 23.125rem;
+  --veritcal-full-width: 11.25rem;
+  --horizontal-full-height: 11.25rem;
+  --horizontal-full-width: 23.125rem;
+  --square-height: 11.25rem;
+  --square-width: 11.25rem;
+  --mini-height: 5.4375rem;
+  --mini-width: 11.25rem;
+  --mobile-screen-full-height: auto;
+  --mobile-screen-full-width: 100%;
 }
 
 * {
