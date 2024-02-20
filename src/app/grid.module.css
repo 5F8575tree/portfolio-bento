@@ -39,20 +39,6 @@
   width: var(--veritcal-full-width);
   background-color: var(--grid-item-bg);
 }
-.linkedIn {
-  grid-area: linkedIn;
-  background: lightyellow;
-  height: var(--mini-height);
-  width: var(--mini-width);
-  background-color: var(--grid-item-bg);
-}
-.gitHub {
-  grid-area: gitHub;
-  background: lightslategray;
-  height: var(--mini-height);
-  width: var(--mini-width);
-  background-color: var(--grid-item-bg);
-}
 .project3 {
   margin-bottom: 0.65rem;
   grid-area: project3;

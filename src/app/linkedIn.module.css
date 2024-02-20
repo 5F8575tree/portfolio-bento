@@ -1,0 +1,10 @@
+.linkedIn {
+  grid-area: linkedIn;
+  height: var(--mini-height);
+  width: var(--mini-width);
+  background-color: var(--grid-item-bg);
+}
+.linkedIn__image {
+  max-width: var(--mini-width);
+  max-height: var(--mini-height);
+}

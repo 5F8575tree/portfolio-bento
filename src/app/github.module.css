@@ -1,0 +1,10 @@
+.gitHub {
+  grid-area: gitHub;
+  height: var(--mini-height);
+  width: var(--mini-width);
+  background-color: var(--grid-item-bg);
+}
+.gitHub__image {
+  max-width: var(--mini-width);
+  max-height: var(--mini-height);
+}

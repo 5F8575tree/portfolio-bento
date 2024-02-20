@@ -1,9 +1,11 @@
 import styles from "../grid.module.css";
+import GitHub from "./GitHub";
 import Language from "./Language";
 import LightDarkMode from "./LightDarkMode";
 import Profile from "./Profile";
 import WorkTogether from "./WorkTogether";
 import AboutMe from "./aboutMe";
+import LinkedIn from "./linkedIn";
 import Skills from "./skills";
 
 const Grid = () => {
@@ -16,8 +18,8 @@ const Grid = () => {
       <Language />
       <div className={styles.project2}>project 2</div>
       <WorkTogether />
-      <div className={styles.linkedIn}>linkedin</div>
-      <div className={styles.gitHub}>github</div>
+      <LinkedIn />
+      <GitHub />
       <div className={styles.project3}>project 3</div>
       <div className={styles.project4}>project 4</div>
       <Skills />
