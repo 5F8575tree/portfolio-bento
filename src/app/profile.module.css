@@ -9,7 +9,7 @@
   background-color: var(--grid-item-bg);
   overflow-x: visible;
   display: flex;
-  border: 0.5px solid rgba(255, 255, 255, 16%);
+  border: var(--border-silver);
 }
 .profile__image_wrapper {
   position: absolute;
@@ -30,7 +30,7 @@
   border-radius: 50%;
 }
 .profile__content_wrapper {
-  margin: 0 0 0 7rem;
+  margin: 0 2.1rem 0 9rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,21 +39,21 @@
   margin: 0 0 0.25rem;
 }
 .profile__name {
-  font-size: 1.375rem;
+  font-size: 1rem;
   letter-spacing: 2.5px;
   font-family: var(--font-acier);
   text-transform: uppercase;
   color: var(--name);
 }
 .profile__role {
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1.11px;
   font-family: var(--font-acier);
   text-transform: uppercase;
   color: var(--role);
 }
 .profile__paragraph {
-  margin: 0.5rem 0.25rem 0 0;
+  margin: 0.5rem 0;
   font-size: 13px;
   letter-spacing: 1.11px;
   font-family: var(--font-text);

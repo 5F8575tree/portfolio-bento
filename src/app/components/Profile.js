@@ -4,7 +4,7 @@ const Profile = () => {
   return (
     <div className={styles.profile}>
       <div className={styles.profile__image_wrapper}>
-        <img className={styles.profile__image} src="/me-with-ted.jpeg" />
+        <img className={styles.profile__image} src="/mjrawlins.jpg" />
       </div>
       <div className={styles.profile__content_wrapper}>
         <div className={styles.profile__headers}>

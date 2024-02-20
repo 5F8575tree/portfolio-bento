@@ -56,15 +56,18 @@ body.light {
   --name: #444;
   --role: #B41919;
   --paragraph: #333;
+  --border-silver: 0.5px solid rgba(255, 255, 255, 8%);
 }
 body.dark {
   background-image: url('/mosaic-blue.png');
   --background-color: #111;
   --text-color: #F8F8F8;
+  /* --grid-item-bg: #262637; */
   --grid-item-bg: #1D2944;
   --name: #F8F8F8;
   --role: #FEE6BD;
   --paragraph: #F8F8F8;
+  --border-silver: 0.5px solid rgba(255, 255, 255, 8%);
 }
 
 a {
