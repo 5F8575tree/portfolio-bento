@@ -1,0 +1,11 @@
+.resume {
+  grid-area: resume;
+  height: var(--square-height);
+  width: var(--square-width);
+  background-color: var(--grid-item-bg);
+  border-radius: 12.5px;
+}
+.image {
+  max-width: 100%;
+  border-radius: 12.5px;
+}

@@ -1,16 +1,99 @@
-.project {
-  padding: 0.25rem;
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-acier);
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  display: flex;
+  align-items: center;
+}
+.title {
+  font-size: 14px;
+}
+.intro {
+  font-family: var(--font-text);
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 1.11px;
+  padding: 0.5rem 8px;
+  text-wrap: pretty;
+  color: var(--paragraph);
+}
+.image {
+  border-radius: 18px 18px 0 0;
+  max-width: 100%;
+}
+.image img {
+  border-radius: 8px 8px 0 0;
+  max-width: 100%;
+}
+.looper {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 45px;
+}
+.project1 .title {
+  color: #689489;
+}
+.project1 svg {
+  fill: #689489;
+}
+.project2 .title {
+  color: #ED4BC0;
+}
+.project2 svg {
+  fill: #ED4BC0;
+}
+.project3 .title {
+  color: #8D2ADA;
+}
+.project3 svg {
+  fill: #8D2ADA;
+}
+.project4 .title {
+  color: #DC7211;
+}
+.project4 svg {
+  fill: #DC7211;
+}
+.project1 {
+  position: relative;
+  border-radius: 8px;
   margin-bottom: 0.65rem;
   grid-area: project1;
   height: var(--veritcal-full-height);
   width: var(--veritcal-full-width);
   background-color: var(--grid-item-bg);
+  border: var(--border-silver);
 }
-.header {
-  display: flex;
-  justify-content: space-between;
-  font-family: var(--font-acier);
-  font-size: 13px;
-  letter-spacing: 1.1px;
-  text-transform: uppercase;
+.project2 {
+  position: relative;
+  border-radius: 8px;
+  margin-bottom: 0.65rem;
+  grid-area: project2;
+  height: var(--veritcal-full-height);
+  width: var(--veritcal-full-width);
+  background-color: var(--grid-item-bg);
+  border: var(--border-silver);
+}
+.project3 {
+  position: relative;
+  border-radius: 8px;
+  margin-bottom: 0.65rem;
+  grid-area: project3;
+  height: var(--veritcal-full-height);
+  width: var(--veritcal-full-width);
+  background-color: var(--grid-item-bg);
+  border: var(--border-silver);
+}
+.project4 {
+  position: relative;
+  border-radius: 8px;
+  margin-bottom: 0.65rem;
+  grid-area: project4;
+  height: var(--veritcal-full-height);
+  width: var(--veritcal-full-width);
+  background-color: var(--grid-item-bg);
+  border: var(--border-silver);
 }

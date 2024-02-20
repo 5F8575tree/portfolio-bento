@@ -15,37 +15,6 @@
       "project3 project4 aboutMe aboutMe"
       "project3 project4 aboutMe aboutMe";
 }
-.resume {
-  grid-area: resume;
-  background: lightgray;
-  height: var(--square-height);
-  width: var(--square-width);
-  background-color: var(--grid-item-bg);
-}
-.project2 {
-  margin-bottom: 0.65rem;
-  grid-area: project2;
-  background: lightsalmon;
-  height: var(--veritcal-full-height);
-  width: var(--veritcal-full-width);
-  background-color: var(--grid-item-bg);
-}
-.project3 {
-  margin-bottom: 0.65rem;
-  grid-area: project3;
-  background: lightpink;
-  height: var(--veritcal-full-height);
-  width: var(--veritcal-full-width);
-  background-color: var(--grid-item-bg);
-}
-.project4 {
-  margin-bottom: 0.65rem;
-  grid-area: project4;
-  background: lightgreen;
-  height: var(--veritcal-full-height);
-  width: var(--veritcal-full-width);
-  background-color: var(--grid-item-bg);
-}
 @media (max-width: 764px) {
   .wrapper {
     max-width: 558px;

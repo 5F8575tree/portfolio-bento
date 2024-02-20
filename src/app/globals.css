@@ -56,7 +56,7 @@ body.light {
   --name: #444;
   --role: #B41919;
   --paragraph: #333;
-  --border-silver: 0.5px solid rgba(255, 255, 255, 8%);
+  --border-silver: 0.5px solid rgba(0, 0, 0, 0.091);
   --tag-bg: #f1eded;
   --tag-text: #000;
 }
