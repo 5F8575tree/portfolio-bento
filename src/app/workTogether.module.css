@@ -1,6 +1,20 @@
 .workTogether {
+  position: relative;
   grid-area: workTogether;
   background-color: transparent;
   height: var(--horizontal-full-height);
   width: var(--horizontal-full-width);
+}
+.content {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+.text {
+  font-family: var(--font-text);
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 1.11px;
+  margin: 0 0 1rem;
+  color: #F8F8F8;
 }
