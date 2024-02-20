@@ -44,6 +44,10 @@ body {
   overflow-x: hidden;
 }
 
+body, body * {
+  transition: background-color 0.4s ease, color 0.4s ease, background-image 0.4s ease;
+}
+
 body.light {
   background-image: url('/mosaic-light.png');
   --background-color: #252525;
