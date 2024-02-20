@@ -4,6 +4,7 @@ import LightDarkMode from "./LightDarkMode";
 import Profile from "./Profile";
 import WorkTogether from "./WorkTogether";
 import AboutMe from "./aboutMe";
+import Skills from "./skills";
 
 const Grid = () => {
   return (
@@ -19,7 +20,7 @@ const Grid = () => {
       <div className={styles.gitHub}>github</div>
       <div className={styles.project3}>project 3</div>
       <div className={styles.project4}>project 4</div>
-      <div className={styles.skills}>skills</div>
+      <Skills />
       <AboutMe />
     </div>
   )

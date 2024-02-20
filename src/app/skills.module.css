@@ -1,0 +1,30 @@
+.skills {
+  position: relative;
+  grid-area: skills;
+  background-color: transparent;
+  height: var(--horizontal-full-height);
+  width: var(--horizontal-full-width);
+}
+.content {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.text {
+  border-radius: 4px;
+  font-family: var(--font-acier);
+  font-size: 11px;
+  line-height: 1.2;
+  letter-spacing: 1.11px;
+  margin: 0 0.125rem 0 0;
+  padding: 5.5px 6.5px;
+  background-color: var(--tag-bg);
+  color: var(--tag-text);
+  text-transform: uppercase;
+}
+.row {
+  display: flex;
+}
