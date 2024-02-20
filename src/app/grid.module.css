@@ -31,13 +31,6 @@
   width: var(--square-width);
   background-color: var(--grid-item-bg);
 }
-.language {
-  grid-area: language;
-  background: lightgoldenrodyellow;
-  height: var(--square-height);
-  width: var(--square-width);
-  background-color: var(--grid-item-bg);
-}
 .project2 {
   margin-bottom: 0.65rem;
   grid-area: project2;
@@ -79,13 +72,6 @@
 .skills {
   grid-area: skills;
   background: lightskyblue;
-  height: var(--horizontal-full-height);
-  width: var(--horizontal-full-width);
-  background-color: var(--grid-item-bg);
-}
-.aboutMe {
-  grid-area: aboutMe;
-  background: violet;
   height: var(--horizontal-full-height);
   width: var(--horizontal-full-width);
   background-color: var(--grid-item-bg);
