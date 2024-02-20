@@ -24,13 +24,6 @@
   width: var(--veritcal-full-width);
   background-color: var(--grid-item-bg);
 }
-.lightDarkMode {
-  grid-area: lightDarkMode;
-  background: lightcoral;
-  height: var(--square-height);
-  width: var(--square-width);
-  background-color: var(--grid-item-bg);
-}
 .resume {
   grid-area: resume;
   background: lightgray;

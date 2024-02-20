@@ -1,4 +1,5 @@
 import styles from "../grid.module.css";
+import LightDarkMode from "./LightDarkMode";
 import Profile from "./Profile";
 import WorkTogether from "./WorkTogether";
 
@@ -7,7 +8,7 @@ const Grid = () => {
     <div className={styles.wrapper}>
       <Profile />
       <div className={styles.project1}>project 1</div>
-      <div className={styles.lightDarkMode}>light/dark mode</div>
+      <LightDarkMode />
       <div className={styles.resume}>resume</div>
       <div className={styles.language}>language</div>
       <div className={styles.project2}>project 2</div>

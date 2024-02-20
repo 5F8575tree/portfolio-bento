@@ -1,0 +1,10 @@
+.lightDarkMode {
+  grid-area: lightDarkMode;
+  height: var(--square-height);
+  width: var(--square-width);
+  background: linear-gradient(145deg, rgba(75, 237, 140, 40%) 10%, rgba(166, 75, 237, 40%) 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+}
