@@ -1,6 +1,7 @@
 .wrapper {
   max-width: 752px;
   margin: 6.125rem auto;
+  overflow-x: visible;
   display: grid;
   grid-template-areas:
       "profile profile project1 lightDarkMode"
@@ -15,13 +16,6 @@
       "project3 project4 aboutMe aboutMe";
 }
 
-.profile {
-  grid-area: profile;
-  background: lightblue;
-  height: var(--horizontal-full-height);
-  width: var(--horizontal-full-width);
-  background-color: var(--grid-item-bg);
-}
 .project1 {
   margin-bottom: 0.65rem;
   grid-area: project1;
@@ -57,13 +51,6 @@
   background: lightsalmon;
   height: var(--veritcal-full-height);
   width: var(--veritcal-full-width);
-  background-color: var(--grid-item-bg);
-}
-.workTogether {
-  grid-area: workTogether;
-  background: lightseagreen;
-  height: var(--horizontal-full-height);
-  width: var(--horizontal-full-width);
   background-color: var(--grid-item-bg);
 }
 .linkedIn {

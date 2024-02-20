@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata:wght@400&display=swap');
+
+.profile {
+  position: relative;
+  border-radius: 1rem;
+  grid-area: profile;
+  height: var(--horizontal-full-height);
+  width: var(--horizontal-full-width);
+  background-color: var(--grid-item-bg);
+  overflow-x: visible;
+  display: flex;
+  border: 0.5px solid rgba(255, 255, 255, 16%);
+}
+.profile__image_wrapper {
+  position: absolute;
+  top: 0;
+  left: -90px;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background: lightcyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile__content_wrapper {
+  margin: 0 0 0 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile__headers {
+  margin: 0 0 0.25rem;
+}
+.profile__name {
+  font-size: 1.375rem;
+  letter-spacing: 2.5px;
+  font-family: var(--font-acier);
+  text-transform: uppercase;
+  color: var(--name);
+}
+.profile__role {
+  font-size: 16px;
+  letter-spacing: 1.11px;
+  font-family: var(--font-acier);
+  text-transform: uppercase;
+  color: var(--role);
+}
+.profile__paragraph {
+  margin: 0.5rem 0.25rem 0 0;
+  font-size: 13px;
+  letter-spacing: 1.11px;
+  font-family: var(--font-text);
+  font-weight: 300;
+  color: var(--paragraph);
+  text-wrap: pretty;
+}
+
+@media (max-width: 1010px) {
+  .profile__image_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 180px;
+    width: 96px;
+    border-radius: 17px 0 0 17px;
+    background: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .profile__image {
+    border-radius: 17px 0 0 17px;
+  }
+}

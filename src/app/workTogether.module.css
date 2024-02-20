@@ -1,0 +1,6 @@
+.workTogether {
+  grid-area: workTogether;
+  background-color: transparent;
+  height: var(--horizontal-full-height);
+  width: var(--horizontal-full-width);
+}
