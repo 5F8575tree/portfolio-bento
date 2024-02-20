@@ -1,0 +1,16 @@
+.project {
+  padding: 0.25rem;
+  margin-bottom: 0.65rem;
+  grid-area: project1;
+  height: var(--veritcal-full-height);
+  width: var(--veritcal-full-width);
+  background-color: var(--grid-item-bg);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-acier);
+  font-size: 13px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}

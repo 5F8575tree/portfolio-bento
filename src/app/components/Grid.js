@@ -3,6 +3,7 @@ import GitHub from "./GitHub";
 import Language from "./Language";
 import LightDarkMode from "./LightDarkMode";
 import Profile from "./Profile";
+import Project from "./Project";
 import WorkTogether from "./WorkTogether";
 import AboutMe from "./aboutMe";
 import LinkedIn from "./linkedIn";
@@ -12,7 +13,7 @@ const Grid = () => {
   return (
     <div className={styles.wrapper}>
       <Profile />
-      <div className={styles.project1}>project 1</div>
+      <Project />
       <LightDarkMode />
       <div className={styles.resume}>resume</div>
       <Language />

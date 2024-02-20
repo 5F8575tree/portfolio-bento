@@ -15,15 +15,6 @@
       "project3 project4 aboutMe aboutMe"
       "project3 project4 aboutMe aboutMe";
 }
-
-.project1 {
-  margin-bottom: 0.65rem;
-  grid-area: project1;
-  background: lightcyan;
-  height: var(--veritcal-full-height);
-  width: var(--veritcal-full-width);
-  background-color: var(--grid-item-bg);
-}
 .resume {
   grid-area: resume;
   background: lightgray;
