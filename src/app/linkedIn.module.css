@@ -8,3 +8,8 @@
   max-width: var(--mini-width);
   max-height: var(--mini-height);
 }
+@media (max-width: 570px) {
+  .linkedIn {
+    margin-bottom: 0.5rem;
+  }
+}

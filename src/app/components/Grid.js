@@ -7,7 +7,7 @@ import Project from "./Project";
 import Resume from "./Resume";
 import WorkTogether from "./WorkTogether";
 import AboutMe from "./aboutMe";
-import LinkedIn from "./linkedIn";
+import LinkedIn from "./LinkedIn";
 import Skills from "./skills";
 
 const Grid = () => {

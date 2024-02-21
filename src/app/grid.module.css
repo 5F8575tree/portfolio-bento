@@ -35,13 +35,6 @@
         "project3 project4 ."
         "project3 project4 .";
   }
-  .profile {
-    margin-right: 0.65rem;
-  }
-  .workTogether {
-    margin-bottom: 0.4rem;
-  }
-
 }
 @media (max-width: 570px) {
   .wrapper {
@@ -67,12 +60,6 @@
         "project3 project4"
         "project3 project4"
         "project3 project4";
-  }
-  .profile, .lightDarkMode, .gitHub, .workTogether, .skills, .language, .resume, .aboutMe {
-    margin-bottom: 0.65rem;
-  }
-  .linkedIn {
-    margin-bottom: 0.3rem;
   }
 }
 @media (max-width: 385px) {
@@ -105,47 +92,5 @@
         "project3"
         "project4"
         "project4";
-  }
-  .profile {
-    width: var(--mobile-screen-full-width);
-  }
-  .project1 {
-    width: var(--mobile-screen-full-width);
-    margin-bottom: 0.65rem;
-  }
-  .lightDarkMode {
-    width: var(--mobile-screen-full-width);
-  }
-  .linkedIn {
-    width: var(--mobile-screen-full-width);
-    margin-bottom: 0.65rem;
-
-  }
-  .gitHub {
-    width: var(--mobile-screen-full-width);
-  }
-  .workTogether {
-    width: var(--mobile-screen-full-width);
-  }
-  .language {
-    width: var(--mobile-screen-full-width);
-  }
-  .resume {
-    width: var(--mobile-screen-full-width);
-  }
-  .project2 {
-    width: var(--mobile-screen-full-width);
-  }
-  .project3 {
-    width: var(--mobile-screen-full-width);
-  }
-  .project4 {
-    width: var(--mobile-screen-full-width);
-  }
-  .skills {
-    width: var(--mobile-screen-full-width);
-  }
-  .aboutMe {
-    width: var(--mobile-screen-full-width);
   }
 }

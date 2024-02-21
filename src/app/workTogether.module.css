@@ -18,3 +18,9 @@
   margin: 0 0 1rem;
   color: #F8F8F8;
 }
+@media (max-width: 570px) {
+  .workTogether {
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+}

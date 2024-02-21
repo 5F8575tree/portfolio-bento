@@ -79,3 +79,9 @@
     border-radius: 17px 0 0 17px;
   }
 }
+@media (max-width: 570px) {
+  .profile {
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+}
