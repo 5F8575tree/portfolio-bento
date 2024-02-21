@@ -20,6 +20,7 @@ const Grid = () => {
         imageSrc="/outblast.jpg"
         designBit="/green-looper.svg"
         number="1"
+        link="https://outblast.com"
         />
       <LightDarkMode />
       <Resume />
@@ -30,6 +31,7 @@ const Grid = () => {
         imageSrc="/shopify.jpg"
         designBit="/pink-looper.svg"
         number="2"
+        link=""
         />
       <WorkTogether />
       <LinkedIn />
@@ -40,6 +42,7 @@ const Grid = () => {
         imageSrc="/books.jpg"
         designBit="/purple-looper.svg"
         number="3"
+        link="https://my-reads-mjr.netlify.app"
       />
       <Project
         title="Landing page"
@@ -47,6 +50,7 @@ const Grid = () => {
         imageSrc="/outblast.jpg"
         designBit="/orange-looper.svg"
         number="4"
+        link="https://landing-page-mjr.netlify.app"
       />
       <Skills />
       <AboutMe />
