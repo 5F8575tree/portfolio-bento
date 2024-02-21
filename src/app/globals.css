@@ -49,6 +49,7 @@ body, body * {
 body.light {
   background-image: url('/mosaic-light.png');
   --background-color: #252525;
+  --background-color-hover: #797979;
   --text-color: #FAFAFA;
   --grid-item-bg: #F8F8F8;
   --name: #444;
@@ -60,7 +61,8 @@ body.light {
 }
 body.dark {
   background-image: url('/mosaic-blue.png');
-  --background-color: #111;
+  --background-color: #252525;
+  --background-color-hover: #797979;
   --text-color: #F8F8F8;
   /* --grid-item-bg: #262637; */
   --grid-item-bg: #1D2944;

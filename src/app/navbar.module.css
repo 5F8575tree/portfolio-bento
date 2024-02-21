@@ -25,6 +25,7 @@
 }
 .navbar__item:hover {
   cursor: pointer;
+  background-color: var(--background-color-hover);
 }
 
 @media (max-width: 688px) {

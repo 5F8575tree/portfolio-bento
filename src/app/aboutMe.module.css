@@ -4,6 +4,7 @@
   background-color: transparent;
   height: var(--horizontal-full-height);
   width: var(--horizontal-full-width);
+  margin-bottom: 0.5rem;
 }
 .content {
   position: absolute;

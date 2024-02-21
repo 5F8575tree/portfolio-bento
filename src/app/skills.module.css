@@ -34,11 +34,6 @@
 .row {
   display: flex;
 }
-@media (max-width: 764px) {
-  .skills {
-    margin-top: 0.5rem;
-  }
-}
 @media (max-width: 570px) {
   .skills {
     margin-top: 0;

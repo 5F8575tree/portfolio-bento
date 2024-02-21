@@ -1,13 +1,16 @@
 'use client';
 
 import styles from '../navbar.module.css';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
+import { DisplayContext } from '../DisplayContext';
 
 const NavBar = () => {
   const [isActive, setIsActive] = useState('All');
+  const { toggleDisplay } = useContext(DisplayContext);
 
   const handleItemClick = (item) => {
     setIsActive(item);
+    toggleDisplay(item);
   }
 
   return (

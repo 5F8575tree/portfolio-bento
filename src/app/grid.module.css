@@ -15,6 +15,19 @@
       "project3 project4 aboutMe aboutMe"
       "project3 project4 aboutMe aboutMe";
 }
+.wrapperAbout {
+  max-width: 752px;
+  margin: 6.125rem auto;
+  overflow-x: visible;
+  display: grid;
+  grid-template-areas:
+      "profile profile resume lightDarkMode"
+      "profile profile resume lightDarkMode"
+      "aboutMe aboutMe skills skills"
+      "aboutMe aboutMe skills skills"
+      "language . . ."
+      "language . . .";
+}
 @media (max-width: 764px) {
   .wrapper {
     max-width: 558px;
@@ -34,6 +47,17 @@
         "project3 project4 language"
         "project3 project4 ."
         "project3 project4 .";
+  }
+  .wrapperAbout {
+    max-width: 558px;
+    margin: 3.125rem auto;
+    grid-template-areas:
+        "profile profile lightDarkMode"
+        "profile profile lightDarkMode"
+        "language aboutMe aboutMe"
+        "language aboutMe aboutMe"
+        "skills skills resume"
+        "skills skills resume";
   }
 }
 @media (max-width: 570px) {
@@ -60,6 +84,21 @@
         "project3 project4"
         "project3 project4"
         "project3 project4";
+  }
+  .wrapperAbout {
+    max-width: 558px;
+    margin: 3.125rem auto;
+    grid-template-areas:
+        "profile profile"
+        "profile profile"
+        "lightDarkMode resume"
+        "lightDarkMore resume"
+        "skills skills"
+        "skills skills"
+        "aboutMe aboutMe"
+        "aboutMe aboutMe"
+        "language language"
+        "language language";
   }
 }
 @media (max-width: 385px) {
