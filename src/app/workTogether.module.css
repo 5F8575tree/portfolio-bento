@@ -24,3 +24,22 @@
     width: 100%;
   }
 }
+@media (max-width: 385px) {
+  .workTogether {
+    height: auto;
+    width: var(--horizontal-full-height);
+  }
+  .image {
+    max-width: 90vw;
+  }
+  .content {
+    bottom: 10%;
+    left: 10%;
+    transform: translateX(-10%);
+    transform: translateY(-10%);
+  }
+  .text {
+    font-size: 13px;
+    margin: 0 0 0.25rem;
+  }
+}

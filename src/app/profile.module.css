@@ -85,3 +85,21 @@
     width: 100%;
   }
 }
+@media (max-width: 385px) {
+  .profile {
+    height: auto;
+    width: 100%;
+  }
+  .profile__image_wrapper {
+    left: 0;
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+  }
+  .profile__image {
+    border-radius: 18px 18px 0 0;
+    object-position: 15% 15%;
+  }
+  .profile__content_wrapper {
+    margin: 12rem 1rem 1rem;
+  }
+}

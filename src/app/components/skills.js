@@ -1,13 +1,8 @@
 import styles from "../skills.module.css";
 
 const Skills = () => {
-
-
-  const imageSrc = 'subtract-red.svg';
-
   return (
     <div className={styles.skills}>
-      <img className={styles.image} src={imageSrc} alt="my skills"/>
       <div className={styles.content}>
         <div className={styles.row}>
           <p className={styles.text}>javascript</p>

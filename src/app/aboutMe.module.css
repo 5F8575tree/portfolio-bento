@@ -42,3 +42,26 @@
     margin-bottom: 0.5rem;
   }
 }
+@media (max-width: 385px) {
+  .aboutMe {
+    position: unset;
+    height: auto;
+    width: 100%;
+    background-color: #333;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  .aboutMe img {
+    display: none;
+  }
+  .content {
+    padding-bottom: 0;
+    position: unset;
+  }
+  .text {
+    padding-bottom: 0;
+    width: 90%;
+    font-size: 13px;
+    text-wrap: pretty;
+  }
+}

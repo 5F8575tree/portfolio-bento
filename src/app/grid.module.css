@@ -64,8 +64,8 @@
 }
 @media (max-width: 385px) {
   .wrapper {
-    max-width: 100%;
-    margin: 2.125rem 0.25rem;
+    max-width: 90vw;
+    margin: 2.125rem auto;
     grid-template-areas:
         "profile"
         "profile"

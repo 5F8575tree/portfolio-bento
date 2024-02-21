@@ -4,6 +4,12 @@
   background-color: transparent;
   height: var(--horizontal-full-height);
   width: var(--horizontal-full-width);
+  background-image: url('/subtract-red.svg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .content {
   position: absolute;
@@ -28,9 +34,41 @@
 .row {
   display: flex;
 }
+@media (max-width: 764px) {
+  .skills {
+    margin-top: 0.5rem;
+  }
+}
 @media (max-width: 570px) {
   .skills {
+    margin-top: 0;
     margin-bottom: 0.5rem;
+    width: 97%;
+  }
+}
+@media (max-width: 385px) {
+  .skills {
+    min-height: var(--horizontal-full-width);
+    height: auto;
     width: 100%;
+    border-radius: 18px;
+    background-image: url('/subtract-red-portrait.svg');
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+  }
+  .text {
+    font-size: 12px;
+  }
+  .row {
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+}
+@media (max-width: 215px) {
+  .text {
+    font-size: 10px;
   }
 }
