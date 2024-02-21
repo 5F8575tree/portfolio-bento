@@ -4,7 +4,7 @@
   font-family: var(--font-acier);
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  padding: 3px 8px;
+  padding: 3px 10px;
   display: flex;
   align-items: center;
 }
@@ -16,7 +16,7 @@
   font-size: 13px;
   font-weight: 300;
   letter-spacing: 1.11px;
-  padding: 0.5rem 8px;
+  padding: 0.5rem 10px;
   text-wrap: pretty;
   color: var(--paragraph);
 }
