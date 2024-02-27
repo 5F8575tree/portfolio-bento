@@ -30,13 +30,31 @@
     color: var(--tag-text);
     text-transform: uppercase;
 }
+.textSmall {
+    border-radius: 4px;
+    font-family: var(--font-header);
+    font-size: 20px;
+    letter-spacing: 1.11px;
+    margin: 0 0.125rem 0 0;
+    padding: 5.5px 6.5px;
+    background-color: var(--tag-bg);
+    color: var(--tag-text);
+    text-transform: uppercase;
+}
 .row {
     display: flex;
 }
 @media (max-width: 1200px) {
     .skills {
+        height: var(--horizontal-half-height);
         width: 100%;
         border-radius: var(--border-radius);
+    }
+    .text {
+        font-size: 16px;
+    }
+    .textSmall {
+        font-size: 13px;
     }
     .image {
         width: 100%;

@@ -17,10 +17,10 @@ const Skills = () => {
           <p className={styles.text}>webpack</p>
         </div>
         <div className={styles.row}>
-          <p className={styles.text}>web dev</p>
-          <p className={styles.text}>frontend dev</p>
-          <p className={styles.text}>web design</p>
-          <p className={styles.text}>freelance</p>
+          <p className={styles.textSmall}>web dev</p>
+          <p className={styles.textSmall}>frontend dev</p>
+          <p className={styles.textSmall}>web design</p>
+          <p className={styles.textSmall}>freelance</p>
         </div>
         <div className={styles.row}>
           <p className={styles.text}>react</p>
@@ -36,7 +36,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

@@ -1,14 +1,12 @@
 .aboutMe {
     position: relative;
     grid-area: aboutMe;
-    background-color: transparent;
+    background-color: var(--tag-bg);
     height: var(--horizontal-height);
     width: var(--horizontal-width);
     margin-bottom: 0.5rem;
-}
-.image {
-    height: var(--horizontal-height);
-    width: var(--horizontal-width);
+    border: 1px solid var(--paragraph);
+    border-radius: var(--border-radius);
 }
 .content {
     position: absolute;
@@ -26,13 +24,13 @@
     text-align: right;
     font-family: var(--font-header);
     text-transform: uppercase;
-    font-size: var(--font-size-header);
+    font-size: 2rem;
     line-height: var(--line-height-header);
     letter-spacing: var(--letter-spacing-header);
-    color: #f8f8f8;
+    color: var(--paragraph);
 }
 .text {
-    width: 60%;
+    width: 80%;
     text-align: right;
     font-family: var(--font-text);
     font-size: var(--font-size-text);
@@ -40,15 +38,14 @@
     line-height: var(--line-height-text);
     letter-spacing: var(--letter-spacing-text);
     text-wrap: pretty;
-    color: #f8f8f8;
+    color: var(--paragraph);
 }
 @media (max-width: 1200px) {
     .aboutMe {
         width: var(--horizontal-half-width);
-        height: var(--mini-half-height);
+        height: var(--horizontal-half-height);
     }
     .image {
         width: 100%;
-        height: 100%;
     }
 }
