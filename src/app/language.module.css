@@ -25,3 +25,8 @@
         width: 100%;
     }
 }
+@media (max-width: 390px) {
+    .language {
+        height: 100px;
+    }
+}
