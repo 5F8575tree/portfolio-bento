@@ -35,6 +35,12 @@ const Grid = () => {
       {isDisplayed === "All" && (
         <>
           <Profile />
+          <LightDarkMode />
+          <Language />
+          <Resume />
+          <WorkTogether />
+          <LinkedIn />
+          <GitHub />
           <Project
             title="PHP website"
             intro="A company website built in PHP and JavaScript. The brief was for improved performance and some redesign."
@@ -43,21 +49,16 @@ const Grid = () => {
             number="1"
             link="https://outblast.com"
           />
-          <LightDarkMode />
-          <Language />
-          <Resume />
-          {/*
-        <Project
-          title="Shopify app"
-          intro="Built to speed up use of the Shopify Admin, Storefront, and Checkout Extensibility API's. The user can fetch real store data using a simple UI."
-          imageSrc="/shopify.jpg"
-          designBit="/pink-looper.svg"
-          number="2"
-          link=""
+          <Project
+            title="Shopify app"
+            intro="Built to speed up use of the Shopify Admin, Storefront, and Checkout Extensibility API's. The user can fetch real store data using a simple UI."
+            imageSrc="/shopify.jpg"
+            designBit="/pink-looper.svg"
+            number="2"
+            link=""
           />
-        <WorkTogether />
-        <LinkedIn />
-        <GitHub />
+          {/*
+
         <Project
           title="Book app"
           intro="React app through which the user can search for books that are fetched from a dummy database and then store those books in various categories."

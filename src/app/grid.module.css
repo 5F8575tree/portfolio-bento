@@ -26,21 +26,25 @@
             "profile profile project1 project1"
             "profile profile project1 project1"
             "lightDarkMode language project1 project1"
-            "lightDarkMode language . ."
-            "resume . . ."
-            "resume . . .";
+            "lightDarkMode language project2 project2"
+            "resume resume project2 project2"
+            "resume resume project2 project2"
+            "workTogether workTogether workTogether linkedIn"
+            "workTogether workTogether workTogether gitHub";
     }
 }
 @media (max-width: 798px) {
     .wrapper {
         max-width: 100vw;
         margin: 2.125rem 1rem;
+        gap: 1rem;
         grid-template-areas:
             "profile profile profile"
             "profile profile profile"
             "project1 lightDarkMode language"
-            "project1 . ."
-            "resume . .";
+            "project1 resume resume"
+            "project2 workTogether workTogether"
+            "project2 linkedIn gitHub";
     }
 }
 @media (max-width: 498px) {
@@ -49,35 +53,12 @@
         margin: 1rem;
         grid-template-areas:
             "profile profile"
-            "profile profile"
-            "project1 lightDarkMode"
-            "project1 language"
-            "project1 ."
-            ". resume";
-    }
-}
-@media (max-width: 390px) {
-    .wrapper {
-        max-width: 100vw;
-        margin: 1rem;
-        grid-template-areas:
-            "profile profile"
             "language lightDarkMode"
             "project1 project1"
-            "resume resume";
-    }
-}
-@media (max-width: 390px) {
-    .wrapper {
-        max-width: 100vw;
-        margin: 2rem 1rem;
-        gap: 1rem;
-        grid-template-areas:
-            "profile"
-            "project1"
-            "lightDarkMode"
-            "language"
-            "resume";
+            "resume resume"
+            "project2 project2"
+            "workTogether workTogether"
+            "linkedIn gitHub";
     }
 }
 

@@ -4,6 +4,12 @@
     width: var(--square-width);
     background-color: transparent;
     border-radius: var(--border-radius);
+    border: 0.5px solid var(--paragraph);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-large);
+    color: var(--paragraph);
 }
 .image {
     max-width: 100%;
@@ -11,8 +17,8 @@
 }
 @media (max-width: 1200px) {
     .resume {
-        width: var(--square-half-width);
-        height: var(--square-half-height);
+        width: 100%;
+        height: var(--square-height);
     }
 }
 @media (max-width: 498px) {
