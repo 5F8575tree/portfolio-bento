@@ -30,7 +30,11 @@
             "resume resume project2 project2"
             "resume resume project2 project2"
             "workTogether workTogether workTogether linkedIn"
-            "workTogether workTogether workTogether gitHub";
+            "workTogether workTogether workTogether gitHub"
+            "project3 project3 . ."
+            "project3 project3 . ."
+            "project3 project3 . ."
+            "project3 project3 . .";
     }
 }
 @media (max-width: 798px) {
@@ -44,7 +48,8 @@
             "project1 lightDarkMode language"
             "project1 resume resume"
             "project2 workTogether workTogether"
-            "project2 linkedIn gitHub";
+            "project2 linkedIn gitHub"
+            ". project3 project3";
     }
 }
 @media (max-width: 498px) {
@@ -58,7 +63,8 @@
             "resume resume"
             "project2 project2"
             "workTogether workTogether"
-            "linkedIn gitHub";
+            "linkedIn gitHub"
+            "project3 project3";
     }
 }
 

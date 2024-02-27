@@ -57,16 +57,17 @@ const Grid = () => {
             number="2"
             link=""
           />
+          <Project
+            title="Book app"
+            intro="React app through which the user can search for books that are fetched from a dummy database and then store those books in various categories."
+            imageSrc="/books.jpg"
+            designBit="/purple-looper.svg"
+            number="3"
+            link="https://my-reads-mjr.netlify.app"
+          />
           {/*
 
-        <Project
-          title="Book app"
-          intro="React app through which the user can search for books that are fetched from a dummy database and then store those books in various categories."
-          imageSrc="/books.jpg"
-          designBit="/purple-looper.svg"
-          number="3"
-          link="https://my-reads-mjr.netlify.app"
-        />
+
         <Project
           title="Landing page"
           intro="The user can search for a particular rental car and then customise their order. Registered members can also view their nearest dealership and rental history."
