@@ -38,35 +38,54 @@
 }
 @media (max-width: 798px) {
     .wrapper {
-        max-width: 100vw;
-        margin: 2.125rem 1rem;
+        max-width: 375px;
+        margin: 2.125rem auto;
         gap: 1rem;
         grid-template-areas:
-            "profile profile profile"
-            "profile profile profile"
-            "project1 lightDarkMode language"
-            "project1 resume resume"
-            "project2 workTogether workTogether"
-            "project2 linkedIn gitHub"
-            "project4 project3 skills"
-            "project4 project3 skills";
+            "profile profile profile profile"
+            "profile profile profile profile"
+            "lightDarkMode lightDarkMode language language"
+            "project1 project1 project1 project1"
+            "project1 project1 project1 project1"
+            "linkedIn linkedIn linkedIn linkedIn"
+            "gitHub gitHub gitHub gitHub"
+            "project2 project2 project2 project2"
+            "project2 project2 project2 project2"
+            "aboutMe aboutMe aboutMe aboutMe"
+            "skills skills skills skills"
+            "project3 project3 project3 project3"
+            "project3 project3 project3 project3"
+            "workTogether workTogether workTogether workTogether"
+            "project4 project4 project4 project4"
+            "project4 project4 project4 project4"
+            "resume resume resume resume";
     }
 }
-@media (max-width: 498px) {
+@media (max-width: 375px) {
     .wrapper {
-        max-width: 100vw;
-        margin: 2.125rem 1rem;
+        width: 100%;
+        max-width: 375px;
+        margin: 2.125rem auto;
+        padding: 0 0.5rem;
+        gap: 1rem;
         grid-template-areas:
             "profile profile"
-            "language lightDarkMode"
+            "profile profile"
+            "lightDarkMode language"
             "project1 project1"
-            "resume resume"
+            "project1 project1"
+            "linkedIn linkedIn"
+            "gitHub gitHub"
             "project2 project2"
-            "workTogether workTogether"
-            "linkedIn gitHub"
+            "project2 project2"
+            "aboutMe aboutMe"
+            "skills skills"
             "project3 project3"
+            "project3 project3"
+            "workTogether workTogether"
             "project4 project4"
-            "skills skills";
+            "project4 project4"
+            "resume resume";
     }
 }
 

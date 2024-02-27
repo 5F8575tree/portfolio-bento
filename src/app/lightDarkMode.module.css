@@ -21,11 +21,13 @@
 }
 @media (max-width: 798px) {
     .lightDarkMode {
-        width: 100%;
+        width: var(--square-mobile-width);
+        height: var(--square-mobile-height);
     }
 }
-@media (max-width: 390px) {
+@media (max-width: 375px) {
     .lightDarkMode {
-        height: 100px;
+        max-width: var(--mobile-semi-width);
+        height: var(--mobile-semi-height);
     }
 }

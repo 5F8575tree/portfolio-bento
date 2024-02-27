@@ -60,3 +60,23 @@
         width: 100%;
     }
 }
+@media (max-width: 798px) {
+    .skills {
+        width: var(--horizontal-mobile-width);
+        height: var(--horizontal-mobile-height);
+    }
+    .text {
+        font-size: 15px;
+    }
+    .textSmall {
+        font-size: 12px;
+    }
+    .image {
+        width: 100%;
+    }
+}
+@media (max-width: 375px) {
+    .skills {
+        width: var(--mobile-width);
+    }
+}

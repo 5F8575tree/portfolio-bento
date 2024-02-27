@@ -21,10 +21,15 @@
         width: var(--mini-half-width);
     }
 }
-@media (max-width: 498px) {
+@media (max-width: 798px) {
     .resume {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: var(--horizontal-mobile-width);
+        height: var(--horizontal-mobile-height);
+    }
+}
+@media (max-width: 375px) {
+    .resume {
+        width: var(--mobile-width);
+        max-width: 100%;
     }
 }

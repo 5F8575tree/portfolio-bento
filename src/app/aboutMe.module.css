@@ -49,3 +49,15 @@
         width: 100%;
     }
 }
+@media (max-width: 798px) {
+    .aboutMe {
+        width: var(--horizontal-mobile-width);
+        height: var(--horizontal-mobile-height);
+    }
+}
+@media (max-width: 375px) {
+    .aboutMe {
+        width: var(--mobile-width);
+        height: var(--horizontal-mobile-height);
+    }
+}

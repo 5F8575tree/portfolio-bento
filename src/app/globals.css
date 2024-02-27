@@ -25,22 +25,31 @@
 
     --color-grey: #797979;
 
+    --mobile-width: 95vw;
+    --mobile-height: unset;
+    --mobile-semi-width: 45vw;
+    --mobile-semi-height: 100%;
+
     --horizontal-width: 36rem;
     --horizontal-height: 17.25rem;
     --horizontal-half-width: 23.5rem;
     --horizontal-half-height: 23.5rem;
+    --horizontal-mobile-width: 21.5rem;
+    --horizontal-mobile-height: 21.5rem;
 
     --vertical-width: 17.5rem;
     --vertical-height: 36rem;
     --vertical-half-width: 23.5rem;
     --vertical-half-height: 29.625rem;
+    --vertical-mobile-width: 21.5rem;
+    --vertical-mobile-height: 21.5rem;
 
     --square-width: 17.25rem;
     --square-height: 17.25rem;
     --square-half-width: 11.25rem;
     --square-half-height: 11.25rem;
-    --square-tiny-height: 2rem;
-    --square-tiny-width: 2rem;
+    --square-mobile-width: 10.25rem;
+    --square-mobile-height: 10.25rem;
 
     --mini-width: 17.25rem;
     --mini-height: 8.75rem;
@@ -136,6 +145,6 @@ button {
 
 @media (max-width: 798px) {
     :root {
-        --padding-large: 2rem 1.5rem;
+        --padding-large: 1.05rem 1rem;
     }
 }
