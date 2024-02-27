@@ -45,7 +45,8 @@ const Grid = () => {
           />
           <LightDarkMode />
           <Language />
-          {/* <Resume />
+          <Resume />
+          {/*
         <Project
           title="Shopify app"
           intro="Built to speed up use of the Shopify Admin, Storefront, and Checkout Extensibility API's. The user can fetch real store data using a simple UI."

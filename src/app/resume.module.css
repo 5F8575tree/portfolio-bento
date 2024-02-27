@@ -1,26 +1,24 @@
 .resume {
-  grid-area: resume;
-  height: var(--square-height);
-  width: var(--square-width);
-  background-color: var(--grid-item-bg);
-  border-radius: 12.5px;
+    grid-area: resume;
+    height: var(--square-height);
+    width: var(--square-width);
+    background-color: transparent;
+    border-radius: var(--border-radius);
 }
 .image {
-  max-width: 100%;
-  border-radius: 12.5px;
+    max-width: 100%;
+    border-radius: var(--border-radius);
 }
-@media (max-width: 570px) {
-  .resume {
-    margin-bottom: 0.5rem;
-  }
+@media (max-width: 1200px) {
+    .resume {
+        width: var(--square-half-width);
+        height: var(--square-half-height);
+    }
 }
-@media (max-width: 385px) {
-  .resume {
-    width: 100%;
-    height: auto;
-    border-radius: 23px;
-  }
-  .image {
-    border-radius: 23px;
-  }
+@media (max-width: 498px) {
+    .resume {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
