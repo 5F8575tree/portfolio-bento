@@ -42,31 +42,13 @@
     text-wrap: pretty;
     color: #f8f8f8;
 }
-@media (max-width: 570px) {
+@media (max-width: 1200px) {
     .aboutMe {
-        margin-bottom: 0.5rem;
+        width: var(--horizontal-half-width);
+        height: var(--mini-half-height);
     }
-}
-@media (max-width: 385px) {
-    .aboutMe {
-        position: unset;
-        height: auto;
+    .image {
         width: 100%;
-        background-color: #333;
-        border-radius: 0.5rem;
-        padding: 1rem;
-    }
-    .aboutMe img {
-        display: none;
-    }
-    .content {
-        padding-bottom: 0;
-        position: unset;
-    }
-    .text {
-        padding-bottom: 0;
-        width: 90%;
-        font-size: 13px;
-        text-wrap: pretty;
+        height: 100%;
     }
 }
