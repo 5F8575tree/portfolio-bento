@@ -2,8 +2,8 @@
     position: relative;
     grid-area: skills;
     background-color: transparent;
-    height: var(--horizontal-full-height);
-    width: var(--horizontal-full-width);
+    height: var(--horizontal-height);
+    width: var(--horizontal-width);
     background-image: url("/subtract-red.svg");
     background-size: cover;
     background-position: center;
@@ -22,8 +22,7 @@
 .text {
     border-radius: 4px;
     font-family: var(--font-header);
-    font-size: 11px;
-    line-height: 1.2;
+    font-size: var(--font-size-text);
     letter-spacing: 1.11px;
     margin: 0 0.125rem 0 0;
     padding: 5.5px 6.5px;
@@ -34,37 +33,12 @@
 .row {
     display: flex;
 }
-@media (max-width: 570px) {
+@media (max-width: 1200px) {
     .skills {
-        margin-top: 0;
-        margin-bottom: 0.5rem;
         width: 100%;
-        border-radius: 18px;
+        border-radius: var(--border-radius);
     }
-}
-@media (max-width: 385px) {
-    .skills {
-        min-height: var(--horizontal-full-width);
-        height: auto;
+    .image {
         width: 100%;
-        border-radius: 18px;
-        background-image: url("/subtract-red-portrait.svg");
-    }
-    .content {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 90%;
-    }
-    .text {
-        font-size: 12px;
-    }
-    .row {
-        flex-wrap: wrap;
-        gap: 0.25rem;
-    }
-}
-@media (max-width: 215px) {
-    .text {
-        font-size: 10px;
     }
 }

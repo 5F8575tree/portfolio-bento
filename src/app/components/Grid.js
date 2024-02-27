@@ -37,10 +37,12 @@ const Grid = () => {
           <Profile />
           <LightDarkMode />
           <Language />
-          <Resume />
-          <WorkTogether />
           <LinkedIn />
           <GitHub />
+          <WorkTogether />
+          {/* <Resume />
+          <Skills />
+          <AboutMe /> */}
           <Project
             title="PHP website"
             intro="A company website built in PHP and JavaScript. The brief was for improved performance and some redesign."
@@ -65,6 +67,8 @@ const Grid = () => {
             number="3"
             link="https://my-reads-mjr.netlify.app"
           />
+          {/*
+
           <Project
             title="Landing page"
             intro="The user can search for a particular rental car and then customise their order. Registered members can also view their nearest dealership and rental history."
@@ -72,11 +76,7 @@ const Grid = () => {
             designBit="/orange-looper.svg"
             number="4"
             link="https://landing-page-mjr.netlify.app"
-          />
-          {/*
-
-        <Skills />
-        <AboutMe /> */}
+          /> */}
         </>
       )}
       {isDisplayed === "About" && (

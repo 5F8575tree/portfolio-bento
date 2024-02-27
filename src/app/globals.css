@@ -27,23 +27,25 @@
 
     --horizontal-width: 36rem;
     --horizontal-height: 17.25rem;
-    --horizontal-half-width: 25.5rem;
-    --horizontal-half-height: 17.5rem;
+    --horizontal-half-width: 23.5rem;
+    --horizontal-half-height: 23.5rem;
 
     --vertical-width: 17.5rem;
     --vertical-height: 36rem;
     --vertical-half-width: 23.5rem;
-    --vertical-half-height: 23.5rem;
+    --vertical-half-height: 29.625rem;
 
     --square-width: 17.25rem;
     --square-height: 17.25rem;
-    --square-half-width: 12.25rem;
-    --square-half-height: 12.25rem;
+    --square-half-width: 11.25rem;
+    --square-half-height: 11.25rem;
     --square-tiny-height: 2rem;
     --square-tiny-width: 2rem;
 
-    --mini-height: 8.75rem;
     --mini-width: 17.25rem;
+    --mini-height: 8.75rem;
+    --mini-half-width: 23.5rem;
+    --mini-half-height: 11.25rem;
 
     --size-laptop: 1200px;
     --size-tablet: 816px;

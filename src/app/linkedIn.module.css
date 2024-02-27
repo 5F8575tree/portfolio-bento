@@ -8,6 +8,16 @@
     max-width: var(--mini-width);
     max-height: var(--mini-height);
 }
+@media (max-width: 1200px) {
+    .linkedIn {
+        height: var(--mini-half-height);
+        width: var(--mini-half-width);
+    }
+    .linkedIn__image {
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
 @media (max-width: 798px) {
     .linkedIn {
         width: 100%;

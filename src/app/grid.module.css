@@ -20,21 +20,18 @@
 @media (max-width: 1200px) {
     .wrapper {
         max-width: 800px;
-        margin: 4.125rem auto;
+        margin: 3.125rem auto;
+        padding: 1rem;
+        gap: 1rem;
         grid-template-areas:
-            "profile profile project1 project1"
             "profile profile project1 project1"
             "profile profile project1 project1"
             "lightDarkMode language project1 project1"
             "lightDarkMode language project2 project2"
-            "resume resume project2 project2"
-            "resume resume project2 project2"
-            "workTogether workTogether workTogether linkedIn"
-            "workTogether workTogether workTogether gitHub"
-            "project3 project3 project4 project4"
-            "project3 project3 project4 project4"
-            "project3 project3 project4 project4"
-            "project3 project3 project4 project4";
+            "linkedIn linkedIn project2 project2"
+            "gitHub gitHub project2 project2"
+            "project3 project3 workTogether workTogether"
+            "project3 project3 . .";
     }
 }
 @media (max-width: 798px) {
@@ -49,7 +46,8 @@
             "project1 resume resume"
             "project2 workTogether workTogether"
             "project2 linkedIn gitHub"
-            "project4 project3 project3";
+            "project4 project3 skills"
+            "project4 project3 skills";
     }
 }
 @media (max-width: 498px) {
@@ -65,7 +63,8 @@
             "workTogether workTogether"
             "linkedIn gitHub"
             "project3 project3"
-            "project4 project4";
+            "project4 project4"
+            "skills skills";
     }
 }
 

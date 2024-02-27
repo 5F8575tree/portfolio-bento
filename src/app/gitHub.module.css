@@ -1,4 +1,3 @@
-/* forcing git update - file name change */
 .gitHub {
     grid-area: gitHub;
     height: var(--mini-height);
@@ -8,6 +7,16 @@
 .gitHub__image {
     max-width: var(--mini-width);
     max-height: var(--mini-height);
+}
+@media (max-width: 1200px) {
+    .gitHub {
+        height: var(--mini-half-height);
+        width: var(--mini-half-width);
+    }
+    .gitHub__image {
+        max-height: 100%;
+        max-width: 100%;
+    }
 }
 @media (max-width: 798px) {
     .gitHub {

@@ -18,7 +18,7 @@
 @media (max-width: 1200px) {
     .resume {
         width: 100%;
-        height: var(--square-height);
+        height: var(--square-half-height);
     }
 }
 @media (max-width: 498px) {

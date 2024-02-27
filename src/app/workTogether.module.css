@@ -23,6 +23,16 @@
     margin: 0 0 1rem;
     color: #f8f8f8;
 }
+@media (max-width: 1200px) {
+    .workTogether {
+        width: var(--horizontal-half-width);
+        height: var(--mini-half-height);
+    }
+    .image {
+        width: 100%;
+        height: 100%;
+    }
+}
 @media (max-width: 798px) {
     .workTogether {
         width: 100%;

@@ -2,40 +2,44 @@
     position: relative;
     grid-area: aboutMe;
     background-color: transparent;
-    height: var(--horizontal-full-height);
-    width: var(--horizontal-full-width);
+    height: var(--horizontal-height);
+    width: var(--horizontal-width);
     margin-bottom: 0.5rem;
+}
+.image {
+    height: var(--horizontal-height);
+    width: var(--horizontal-width);
 }
 .content {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    padding: 0 0 1rem;
+    padding: var(--padding-large);
+    padding-right: 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 100%;
 }
 .title {
     text-align: right;
     font-family: var(--font-header);
     text-transform: uppercase;
-    font-size: 18px;
-    line-height: 1.2;
-    letter-spacing: 1.11px;
-    margin: 0 0 1rem;
+    font-size: var(--font-size-header);
+    line-height: var(--line-height-header);
+    letter-spacing: var(--letter-spacing-header);
     color: #f8f8f8;
 }
 .text {
     width: 60%;
     text-align: right;
     font-family: var(--font-text);
-    font-size: 12px;
+    font-size: var(--font-size-text);
     font-weight: 300;
-    line-height: 1.2;
-    letter-spacing: 1.11px;
-    margin: 0 0 1rem;
+    line-height: var(--line-height-text);
+    letter-spacing: var(--letter-spacing-text);
+    text-wrap: pretty;
     color: #f8f8f8;
 }
 @media (max-width: 570px) {

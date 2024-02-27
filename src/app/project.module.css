@@ -73,7 +73,6 @@
 .project1 {
     position: relative;
     border-radius: var(--border-radius);
-    margin-bottom: 0.65rem;
     grid-area: project1;
     height: var(--vertical-height);
     width: var(--vertical-width);
@@ -83,7 +82,6 @@
 .project2 {
     position: relative;
     border-radius: var(--border-radius);
-    margin-bottom: 0.65rem;
     grid-area: project2;
     height: var(--vertical-height);
     width: var(--vertical-width);
@@ -93,7 +91,6 @@
 .project3 {
     position: relative;
     border-radius: var(--border-radius);
-    margin-bottom: 0.65rem;
     grid-area: project3;
     height: var(--vertical-height);
     width: var(--vertical-width);
@@ -103,7 +100,6 @@
 .project4 {
     position: relative;
     border-radius: var(--border-radius);
-    margin-bottom: 0.65rem;
     grid-area: project4;
     height: var(--vertical-height);
     width: var(--vertical-width);
