@@ -19,3 +19,8 @@
         border-radius: var(--border-radius);
     }
 }
+@media (max-width: 798px) {
+    .lightDarkMode {
+        width: 100%;
+    }
+}

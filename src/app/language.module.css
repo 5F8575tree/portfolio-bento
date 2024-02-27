@@ -20,3 +20,8 @@
         border-radius: var(--border-radius);
     }
 }
+@media (max-width: 798px) {
+    .language {
+        width: 100%;
+    }
+}
