@@ -1,82 +1,119 @@
 .navbar {
-  margin: 2.25rem 0 0;
-  display: flex;
-  justify-content: center;
+    margin: 2.25rem 0 0;
+    display: flex;
+    justify-content: center;
 }
 .navbar__list {
-  list-style: none;
-  display: flex;
+    list-style: none;
+    display: flex;
 }
 .navbar__item {
-  font-family: var(--font-text);
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  margin: 0 0.5px;
-  padding: 18px 54px;
-  width: 130px;
-  border-radius: 7px;
-  background-color: var(--background-color);
-  color: var(--text-color);
+    font-family: var(--font-text);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin: 0 0.5px;
+    padding: 18px 54px;
+    width: 130px;
+    border-radius: 7px;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 .navbar__item.active {
-  background-color: var(--color-grey);
-  color: #fff;
+    background-color: var(--color-grey);
+    color: #fff;
 }
 .navbar__item:hover {
-  cursor: pointer;
-  background-color: var(--background-color-hover);
+    cursor: pointer;
+    background-color: var(--background-color-hover);
 }
 
+@media (max-width: 1200px) {
+    .navbar__item {
+        font-size: 16px;
+        padding: 16px 36px;
+        width: 110px;
+        border-radius: 7px;
+    }
+}
 @media (max-width: 688px) {
-  .navbar__item {
-    font-size: 14px;
-    padding: 10px 30px;
-    width: 100px;
-    border-radius: 7px;
-  }
+    .navbar__item {
+        font-size: 14px;
+        padding: 10px 30px;
+        width: 100px;
+    }
 }
 @media (max-width: 533px) {
-  .navbar {
-    margin: 1rem 0 0;
-  }
-  .navbar__list {
-    width: 100%;
-    margin: 0 1rem;
-    display: grid;
-    grid-template-areas:
-      "item1 item1"
-      "item2 item3"
-      "item4 item5";
-    gap: 0.25rem;
-  }
+    .navbar {
+        margin: 1rem 0 0;
+    }
+    .navbar__list {
+        width: 100%;
+        margin: 0 1rem;
+        display: grid;
+        grid-template-areas:
+            "item1 item1"
+            "item2 item3"
+            "item4 item5";
+        gap: 0.25rem;
+    }
 
-  .navbar__item:nth-child(1) { grid-area: item1; width: 100%;}
-  .navbar__item:nth-child(2) { grid-area: item2; width: 100%;}
-  .navbar__item:nth-child(3) { grid-area: item3; width: 100%;}
-  .navbar__item:nth-child(4) { grid-area: item4; width: 100%;}
-  .navbar__item:nth-child(5) { grid-area: item5; width: 100%;}
+    .navbar__item:nth-child(1) {
+        grid-area: item1;
+        width: 100%;
+    }
+    .navbar__item:nth-child(2) {
+        grid-area: item2;
+        width: 100%;
+    }
+    .navbar__item:nth-child(3) {
+        grid-area: item3;
+        width: 100%;
+    }
+    .navbar__item:nth-child(4) {
+        grid-area: item4;
+        width: 100%;
+    }
+    .navbar__item:nth-child(5) {
+        grid-area: item5;
+        width: 100%;
+    }
 }
 @media (max-width: 319px) {
-  .navbar {
-    margin: 1rem 0 0;
-  }
-  .navbar__list {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "item1"
-      "item2"
-      "item3"
-      "item4"
-      "item5";
-    gap: 0.25rem;
-    width: 90%;
-  }
+    .navbar {
+        margin: 1rem 0 0;
+    }
+    .navbar__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "item1"
+            "item2"
+            "item3"
+            "item4"
+            "item5";
+        gap: 0.25rem;
+        width: 90%;
+    }
 
-  .navbar__item:nth-child(1) { grid-area: item1; width: 100%; }
-  .navbar__item:nth-child(2) { grid-area: item2; width: 100%; }
-  .navbar__item:nth-child(3) { grid-area: item3; width: 100%; }
-  .navbar__item:nth-child(4) { grid-area: item4; width: 100%; }
-  .navbar__item:nth-child(5) { grid-area: item5; width: 100%; }
+    .navbar__item:nth-child(1) {
+        grid-area: item1;
+        width: 100%;
+    }
+    .navbar__item:nth-child(2) {
+        grid-area: item2;
+        width: 100%;
+    }
+    .navbar__item:nth-child(3) {
+        grid-area: item3;
+        width: 100%;
+    }
+    .navbar__item:nth-child(4) {
+        grid-area: item4;
+        width: 100%;
+    }
+    .navbar__item:nth-child(5) {
+        grid-area: item5;
+        width: 100%;
+    }
 }

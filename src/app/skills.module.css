@@ -1,70 +1,70 @@
 .skills {
-  position: relative;
-  grid-area: skills;
-  background-color: transparent;
-  height: var(--horizontal-full-height);
-  width: var(--horizontal-full-width);
-  background-image: url('/subtract-red.svg');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    position: relative;
+    grid-area: skills;
+    background-color: transparent;
+    height: var(--horizontal-full-height);
+    width: var(--horizontal-full-width);
+    background-image: url("/subtract-red.svg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .content {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
 }
 .text {
-  border-radius: 4px;
-  font-family: var(--font-acier);
-  font-size: 11px;
-  line-height: 1.2;
-  letter-spacing: 1.11px;
-  margin: 0 0.125rem 0 0;
-  padding: 5.5px 6.5px;
-  background-color: var(--tag-bg);
-  color: var(--tag-text);
-  text-transform: uppercase;
+    border-radius: 4px;
+    font-family: var(--font-header);
+    font-size: 11px;
+    line-height: 1.2;
+    letter-spacing: 1.11px;
+    margin: 0 0.125rem 0 0;
+    padding: 5.5px 6.5px;
+    background-color: var(--tag-bg);
+    color: var(--tag-text);
+    text-transform: uppercase;
 }
 .row {
-  display: flex;
+    display: flex;
 }
 @media (max-width: 570px) {
-  .skills {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    width: 100%;
-    border-radius: 18px;
-  }
+    .skills {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        width: 100%;
+        border-radius: 18px;
+    }
 }
 @media (max-width: 385px) {
-  .skills {
-    min-height: var(--horizontal-full-width);
-    height: auto;
-    width: 100%;
-    border-radius: 18px;
-    background-image: url('/subtract-red-portrait.svg');
-  }
-  .content {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 90%;
-  }
-  .text {
-    font-size: 12px;
-  }
-  .row {
-    flex-wrap: wrap;
-    gap: 0.25rem;
-  }
+    .skills {
+        min-height: var(--horizontal-full-width);
+        height: auto;
+        width: 100%;
+        border-radius: 18px;
+        background-image: url("/subtract-red-portrait.svg");
+    }
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 90%;
+    }
+    .text {
+        font-size: 12px;
+    }
+    .row {
+        flex-wrap: wrap;
+        gap: 0.25rem;
+    }
 }
 @media (max-width: 215px) {
-  .text {
-    font-size: 10px;
-  }
+    .text {
+        font-size: 10px;
+    }
 }

@@ -1,105 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata:wght@400&display=swap');
+@font-face {
+    font-family: "Acier Display Solid";
+    src: url("../../public/Acier-DisplaySolid.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 .profile {
-  position: relative;
-  border-radius: 1rem;
-  grid-area: profile;
-  height: var(--horizontal-full-height);
-  width: var(--horizontal-full-width);
-  background-color: var(--grid-item-bg);
-  overflow-x: visible;
-  display: flex;
-  border: var(--border-silver);
+    border-radius: var(--border-radius);
+    grid-area: profile;
+    width: var(--horizontal-width);
+    height: var(--horizontal-height);
+    background-color: var(--grid-item-bg);
+    overflow-x: visible;
+    display: flex;
+    box-shadow: var(--shadow-light);
+    transition: var(--size-transition);
 }
 .profile__image_wrapper {
-  position: absolute;
-  top: 0;
-  left: -90px;
-  height: 180px;
-  width: 180px;
-  border-radius: 50%;
-  background: lightcyan;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.profile__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-}
-.profile__content_wrapper {
-  margin: 0 1rem 0 9.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.profile__headers {
-  margin: 0 0 0.25rem;
-}
-.profile__name {
-  font-size: 1rem;
-  letter-spacing: 2.5px;
-  font-family: var(--font-acier);
-  text-transform: uppercase;
-  color: var(--name);
-}
-.profile__role {
-  font-size: 14px;
-  letter-spacing: 1.11px;
-  font-family: var(--font-acier);
-  text-transform: uppercase;
-  color: var(--role);
-}
-.profile__paragraph {
-  margin: 0.5rem 0;
-  font-size: 13px;
-  letter-spacing: 1.11px;
-  font-family: var(--font-text);
-  font-weight: 300;
-  color: var(--paragraph);
-  text-wrap: pretty;
-}
-
-@media (max-width: 1010px) {
-  .profile__image_wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 180px;
-    width: 120px;
-    border-radius: 17px 0 0 17px;
-    background: lightcyan;
+    width: 100%;
+    height: var(--horizontal-full-height);
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .profile__image {
-    border-radius: 17px 0 0 17px;
-  }
 }
-@media (max-width: 570px) {
-  .profile {
-    margin-bottom: 0.5rem;
+.profile__image {
     width: 100%;
-  }
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
 }
-@media (max-width: 385px) {
-  .profile {
-    height: auto;
-    width: 100%;
-  }
-  .profile__image_wrapper {
-    left: 0;
-    width: 100%;
-    border-radius: 18px 18px 0 0;
-  }
-  .profile__image {
-    border-radius: 18px 18px 0 0;
-    object-position: 15% 15%;
-  }
-  .profile__content_wrapper {
-    margin: 12rem 1rem 1rem;
-  }
+.profile__content_wrapper {
+    padding: var(--padding-large);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.profile__name {
+    font-size: calc(var(--font-size-header) + 0.5rem);
+    letter-spacing: var(--letter-spacing-header);
+    font-family: var(--font-header);
+    text-transform: uppercase;
+    color: var(--name);
+}
+.profile__role {
+    font-size: var(--font-size-header);
+    letter-spacing: var(--letter-spacing-text);
+    font-family: var(--font-header);
+    text-transform: uppercase;
+    color: var(--role);
+}
+.profile__paragraph {
+    font-size: var(--font-size-text);
+    letter-spacing: var(--letter-spacing-text);
+    line-height: var(--line-height-text);
+    font-family: var(--font-text);
+    font-weight: 300;
+    color: var(--paragraph);
+    text-wrap: pretty;
+}
+
+@media (max-width: 1200px) {
+    .profile {
+        width: var(--horizontal-half-width);
+        height: var(--horizontal-half-height);
+        transition: var(--size-transition);
+    }
+    .profile__content_wrapper {
+        max-width: 66.666%;
+    }
+    .profile__name {
+        font-size: 1.5rem;
+    }
+    .profile__role {
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 798px) {
+    .profile {
+        width: 100%;
+        transition: var(--size-transition);
+    }
 }

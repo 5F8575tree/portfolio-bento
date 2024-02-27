@@ -1,19 +1,22 @@
 .language {
-  grid-area: language;
-  height: var(--square-height);
-  width: var(--square-width);
-  background: linear-gradient(145deg, rgba(237, 75, 192, 50%) 20%, rgba(237, 75, 75, 40%) 90%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
+    grid-area: language;
+    height: var(--square-height);
+    width: var(--square-width);
+    background: linear-gradient(
+        145deg,
+        rgba(237, 75, 192, 50%) 20%,
+        rgba(237, 75, 75, 40%) 90%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 
-@media (max-width: 385px) {
-  .language {
-    height: 120px;
-    width: 100%;
-    border-radius: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
+@media (max-width: 1200px) {
+    .language {
+        height: var(--square-half-height);
+        width: var(--square-half-width);
+        border-radius: var(--border-radius);
+    }
 }

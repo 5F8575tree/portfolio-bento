@@ -1,68 +1,68 @@
 .aboutMe {
-  position: relative;
-  grid-area: aboutMe;
-  background-color: transparent;
-  height: var(--horizontal-full-height);
-  width: var(--horizontal-full-width);
-  margin-bottom: 0.5rem;
+    position: relative;
+    grid-area: aboutMe;
+    background-color: transparent;
+    height: var(--horizontal-full-height);
+    width: var(--horizontal-full-width);
+    margin-bottom: 0.5rem;
 }
 .content {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  padding: 0 0 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
-  height: 100%;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
 }
 .title {
-  text-align: right;
-  font-family: var(--font-acier);
-  text-transform: uppercase;
-  font-size: 18px;
-  line-height: 1.2;
-  letter-spacing: 1.11px;
-  margin: 0 0 1rem;
-  color: #F8F8F8;
+    text-align: right;
+    font-family: var(--font-header);
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 1.11px;
+    margin: 0 0 1rem;
+    color: #f8f8f8;
 }
 .text {
-  width: 60%;
-  text-align: right;
-  font-family: var(--font-text);
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 1.2;
-  letter-spacing: 1.11px;
-  margin: 0 0 1rem;
-  color: #F8F8F8;
+    width: 60%;
+    text-align: right;
+    font-family: var(--font-text);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 1.11px;
+    margin: 0 0 1rem;
+    color: #f8f8f8;
 }
 @media (max-width: 570px) {
-  .aboutMe {
-    margin-bottom: 0.5rem;
-  }
+    .aboutMe {
+        margin-bottom: 0.5rem;
+    }
 }
 @media (max-width: 385px) {
-  .aboutMe {
-    position: unset;
-    height: auto;
-    width: 100%;
-    background-color: #333;
-    border-radius: 0.5rem;
-    padding: 1rem;
-  }
-  .aboutMe img {
-    display: none;
-  }
-  .content {
-    padding-bottom: 0;
-    position: unset;
-  }
-  .text {
-    padding-bottom: 0;
-    width: 90%;
-    font-size: 13px;
-    text-wrap: pretty;
-  }
+    .aboutMe {
+        position: unset;
+        height: auto;
+        width: 100%;
+        background-color: #333;
+        border-radius: 0.5rem;
+        padding: 1rem;
+    }
+    .aboutMe img {
+        display: none;
+    }
+    .content {
+        padding-bottom: 0;
+        position: unset;
+    }
+    .text {
+        padding-bottom: 0;
+        width: 90%;
+        font-size: 13px;
+        text-wrap: pretty;
+    }
 }

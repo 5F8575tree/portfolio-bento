@@ -1,24 +1,21 @@
 .lightDarkMode {
-  margin-bottom: 0.5rem;
-  grid-area: lightDarkMode;
-  height: var(--square-height);
-  width: var(--square-width);
-  background: linear-gradient(145deg, rgba(75, 237, 140, 40%) 10%, rgba(166, 75, 237, 40%) 90%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
+    grid-area: lightDarkMode;
+    width: var(--square-width);
+    height: var(--square-height);
+    background: linear-gradient(
+        145deg,
+        rgba(75, 237, 140, 40%) 10%,
+        rgba(166, 75, 237, 40%) 90%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
-@media (max-width: 570px) {
-  .lightDarkMode {
-    justify-self: right;
-    margin-right: 1rem;
-  }
-}
-@media (max-width: 385px) {
-  .lightDarkMode {
-    width: 100%;
-    border-radius: 0.5rem;
-    margin-right: 0rem;
-  }
+@media (max-width: 1200px) {
+    .lightDarkMode {
+        width: var(--square-half-width);
+        height: var(--square-half-height);
+        border-radius: var(--border-radius);
+    }
 }
